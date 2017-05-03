@@ -40,6 +40,10 @@ nav {
   text-align: right;
 }
 
+nav li {
+  display: inline-block;
+}
+
 nav span {
   padding: 10px;
 
