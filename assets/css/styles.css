@@ -45,27 +45,23 @@ nav {
 
 .nav {
   display: flex;
-  align-items: center;
-  align-content: space-around;
-
+  align-items: center; /* Keeps logo vert centered in header */
 }
 
 .nav-content {
   width: 100%;
   background-color: black;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-end; /* Puts nav links right justified */
+  padding-right: 10px; /* Padding for nav links */
 }
 
-nav li {
+.nav li {
   display: inline-block;
-  text-align: right;
-  top: 10px;
-  right: 10px;
+  text-align: center;
 }
 
-nav span {
+.nav span {
   padding: 10px;
 
 }
