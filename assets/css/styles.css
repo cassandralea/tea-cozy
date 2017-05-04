@@ -23,13 +23,16 @@ header {
   position: fixed;
   z-index: 10;
   background-color: black;
+  margin-top: auto;
+  margin-bottom: auto;
 
 }
 
 header img {
   height: 50px;
-  left: 20px;
+  left: 10px;
   position: absolute;
+
 }
 
 nav {
@@ -70,14 +73,19 @@ nav span {
 
 .mission-header {
   display: flex;
-  justify-content: center;
+
   align-items: center;
+  align-content: space-around;
+
 
 }
 
 .mission-content {
   width: 100%;
   background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Featured */
