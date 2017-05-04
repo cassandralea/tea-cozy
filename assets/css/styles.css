@@ -9,11 +9,6 @@ body {
   margin: 0;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-
-}
 
 a {
   color: seashell;
@@ -73,7 +68,13 @@ nav span {
   padding-top: 70px;
 }
 
-#mission .content {
+.mission-header {
+  display: flex;
+  justify-content: center;
+
+}
+
+.mission-content {
   width: 100%;
   background-color: black;
 }
