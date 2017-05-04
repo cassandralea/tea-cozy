@@ -31,7 +31,7 @@ header {
 .nav img {
   height: 50px;
   left: 10px;
-  position: absolute;
+
 
 }
 
@@ -48,13 +48,15 @@ nav {
   align-items: center; /* Keeps logo vert centered in header */
 }
 
-.nav-content {
+
+.nav-right {
   width: 100%;
   background-color: black;
   display: flex;
   justify-content: flex-end; /* Puts nav links right justified */
   padding-right: 10px; /* Padding for nav links */
 }
+
 
 .nav li {
   display: inline-block;
