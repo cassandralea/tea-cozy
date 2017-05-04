@@ -28,18 +28,34 @@ header {
 
 }
 
-header img {
+.nav img {
   height: 50px;
   left: 10px;
   position: absolute;
 
 }
 
+/*
 nav {
   text-align: right;
   position: absolute;
   right: 20px;
 
+}*/
+
+.nav {
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+
+}
+
+.nav-content {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav li {
@@ -73,7 +89,6 @@ nav span {
 
 .mission-header {
   display: flex;
-
   align-items: center;
   align-content: space-around;
 
@@ -123,8 +138,4 @@ nav span {
 
 #wrap {
   flex-wrap: wrap;
-}
-
-h4 {
-  display: inline;
 }
