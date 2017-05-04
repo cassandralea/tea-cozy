@@ -71,6 +71,7 @@ nav span {
 .mission-header {
   display: flex;
   justify-content: center;
+  align-items: center;
 
 }
 
@@ -90,6 +91,7 @@ nav span {
 .featured-item {
   text-align: center;
   display: flex;
+  justify-content: space-around;
 }
 
 .featured-item img {
