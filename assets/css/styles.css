@@ -87,18 +87,34 @@ nav span {
   margin: auto;
 
 }
-
-.featured-item {
+.featured-container {
+  background-color: dodgerblue;
+  display: flex;
+  align-items: center;
+  min-height: 125px;
+  justify-content: space-around;
+}
+/*
+#featured .container {
   text-align: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+
+} */
+
+.featured-item {
+  display: inline-block;
+
 }
 
 .featured-item img {
-  display: inline-block;
   width: 300px;
   height: 200px;
+}
 
+#wrap {
+  flex-wrap: wrap;
 }
 
 h4 {
