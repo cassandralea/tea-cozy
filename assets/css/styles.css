@@ -153,6 +153,13 @@ flex-wrap: wrap;
   text-align: center;
 }
 
+#footer {
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+
 #copyright {
   background-color: black;
   text-align: left;
