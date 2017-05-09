@@ -100,9 +100,7 @@ h4 {
 
 }
 .featured-container {
-  display: flex;
   align-items: center;
-
   justify-content: center;
 }
 /*
@@ -115,8 +113,9 @@ h4 {
 } */
 
 .featured-item {
-  display: inline-block;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .featured-item img {
