@@ -85,14 +85,12 @@ header {
 
 }
 
-h2 {
-
+h2, h3, h4 {
+  padding: 10px;
+  margin: 0;
 }
 
-h4 {
-  display: inline-block;
 
-}
 /* Featured
 
 #featured {
@@ -132,7 +130,12 @@ h4 {
   flex-wrap: wrap;
 }
 */
-
+#featured {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
 .flex-container {
   display: flex;
 justify-content: center;
