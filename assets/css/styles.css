@@ -152,3 +152,11 @@ flex-wrap: wrap;
   font-weight: bold;
   text-align: center;
 }
+
+#copyright {
+  background-color: black;
+  text-align: left;
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+}
