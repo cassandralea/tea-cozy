@@ -32,15 +32,8 @@ header {
   height: 50px;
   left: 10px;
   margin-left: 10px;
+  display: block;
 }
-
-/*
-nav {
-  text-align: right;
-  position: absolute;
-  right: 20px;
-
-}*/
 
 .nav {
   display: flex;
@@ -84,18 +77,21 @@ nav {
   display: flex;
   align-items: center;
   align-content: space-around;
-
-
 }
 
 .mission-content {
   width: 100%;
   background-color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
 }
 
+h2 {
+
+}
+
+h4 {
+
+}
 /* Featured */
 
 #featured {
